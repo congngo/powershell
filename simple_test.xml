@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object>
+    <Property Name="Department">IT</Property>
+    <Property Name="Jobtitle">PowerShell Admin</Property>
+    <Property Name="Name">Heiko Horn</Property>
+  </Object>
+</Objects>
