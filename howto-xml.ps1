@@ -1,6 +1,6 @@
 ﻿#https://www.youtube.com/watch?v=AcR9UvEnW98&list=WL&index=14&t=1549s
 #https://github.com/hhorn76/PowerShell/blob/master/YouTube/How%20to%20-%20XML.ps1
-$strXml= "$env:USERPROFILE\Desktop\Test.xml"
+$strXml= "$env:USERPROFILE\OneDrive\Documents\powershell\simple_test.xml"
 $obj=New-Object -TypeName PSObject -Property @{"Jobtitle"="PowerShell Admin";"Department"="IT";"Name"="Heiko Horn"}
 $xml=ConvertTo-Xml -InputObject $obj -As Document
 $xml.Save($strXml)
